@@ -4,8 +4,7 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    int N;
-
+    unsigned N;
     cin >> N;
 
     if(N % 2)

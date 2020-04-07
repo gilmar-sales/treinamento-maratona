@@ -5,7 +5,6 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     unsigned A, B, C, K;
-
     cin >> A >> B >> C >> K;
 
     unsigned* major = &A;

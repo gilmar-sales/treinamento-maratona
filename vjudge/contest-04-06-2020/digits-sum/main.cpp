@@ -7,7 +7,6 @@ unsigned digits_sum(unsigned n);
 int main(int argc, char const *argv[])
 {
     unsigned N, minor;
-
     cin >> N;
 
     minor = digits_sum(1) + digits_sum(N-1);

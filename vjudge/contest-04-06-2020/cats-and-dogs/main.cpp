@@ -10,16 +10,11 @@ int main(int argc, char const *argv[])
     if( A <= X)
     {
         if(A + B-1 >= X)
-        {
             cout << "YES" << endl;
-        } else
-        {
+        else
             cout << "NO" << endl;
-        }
     } else
-    {
         cout << "NO" << endl;
-    }
     
     return 0;
 }
