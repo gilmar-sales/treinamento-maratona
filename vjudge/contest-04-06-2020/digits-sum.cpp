@@ -24,14 +24,12 @@ int main(int argc, char const *argv[])
 
 unsigned digits_sum(unsigned n)
 {
-    unsigned place = 1;
     unsigned sum = 0;
 
     while (n)
     {
-        unsigned place_value = n % (unsigned) 10;
+        unsigned place_value = n % 10;
         sum += place_value;
-        n -= place_value;
         n /= 10;
     }
     
